@@ -1,0 +1,22 @@
+{
+  "name": "history-facts",
+  "version": "1.0.0",
+  "description": "Create a history facts alexa skill.",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "bst proxy lambda index.js",
+    "getFact": "bst intend GetNewFactIntent",
+    "deploy": "bst deploy lambda"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "ask-sdk-core": "^2.7.0",
+    "ask-sdk-model": "^1.24.0",
+    "bespoken-tools": "^2.1.2",
+    "dotenv": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcus1986-lab/history-facts.git"
+  }
+}
