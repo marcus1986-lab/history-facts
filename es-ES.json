@@ -1,0 +1,44 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "hechos históricos",
+            "intents": [
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "un hecho",
+                        "un hecho histórico",
+                        "dime un hecho",
+                        "dame un hecho",
+                        "dame un hecho histórico",
+                        "dime un trivia",
+                        "dime un trivia histórico",
+                        "dame un trivia",
+                        "dame alguna información",
+                        "dame alguna información histórica",
+                        "cuéntame algo",
+                        "dame algo"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
